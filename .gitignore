@@ -1,0 +1,12 @@
+# Estado de Terraform: puede contener secretos (por ejemplo la contraseña de la RDS)
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# Variables con secretos
+secrets.auto.tfvars
+*.pem
+
+# Plan binario
+*.tfplan
